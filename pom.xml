@@ -23,8 +23,7 @@
         <skipDocker>false</skipDocker>
         <docker.workDir>${project.build.directory}</docker.workDir>
         <docker.dockerfile>${project.basedir}/docker/Dockerfile</docker.dockerfile>
-        <docker.release-version>latest</docker.release-version>
-        <docker.tag>multimaster:latest</docker.tag>
+        <docker.tag>multimaster</docker.tag>
     </properties>
 
 
